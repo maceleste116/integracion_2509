@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: qa.CucumberTests
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 67.448 s <<< FAILURE! - in qa.CucumberTests
+runScenario(qa.CucumberTests)  Time elapsed: 3.758 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+
+runScenario(qa.CucumberTests)  Time elapsed: 4.175 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+

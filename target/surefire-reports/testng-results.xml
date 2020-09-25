@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="9" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="66085" started-at="2020-07-16T08:57:39 ART" finished-at="2020-07-16T08:58:45 ART">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:qa.CucumberTests@68bbe345]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="66085" started-at="2020-07-16T08:57:39 ART" finished-at="2020-07-16T08:58:45 ART">
+      <class name="qa.CucumberTests">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:qa.CucumberTests@68bbe345]" name="setUpClass" is-config="true" duration-ms="445" started-at="2020-07-16T08:57:39 ART" finished-at="2020-07-16T08:57:39 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:qa.CucumberTests@68bbe345]" name="runScenario" duration-ms="20814" started-at="2020-07-16T08:57:39 ART" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-07-16T08:58:00 ART">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Crear grupo tarifario con datos requeridos"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Administrar Producto Tecnico"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:qa.CucumberTests@68bbe345]" name="runScenario" duration-ms="4716" started-at="2020-07-16T08:58:00 ART" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-07-16T08:58:05 ART">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Crear grupo tarifario sin datos requeridos"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Administrar Producto Tecnico"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:qa.CucumberTests@68bbe345]" name="runScenario" duration-ms="4593" started-at="2020-07-16T08:58:05 ART" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-07-16T08:58:09 ART">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Crear grupo tarifario con codigo existente"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Administrar Producto Tecnico"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:qa.CucumberTests@68bbe345]" name="runScenario" duration-ms="6082" started-at="2020-07-16T08:58:09 ART" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-07-16T08:58:15 ART">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Modificar grupo tarifario existente"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Administrar Producto Tecnico"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:qa.CucumberTests@68bbe345]" name="runScenario" duration-ms="10077" started-at="2020-07-16T08:58:15 ART" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-07-16T08:58:25 ART">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Modificar grupo tarifario existente sin datos requeridos"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Administrar Producto Tecnico"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:qa.CucumberTests@68bbe345]" name="runScenario" duration-ms="4680" started-at="2020-07-16T08:58:25 ART" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-07-16T08:58:30 ART">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Eliminar grupo tarifario existente cancelar"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Administrar Producto Tecnico"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:qa.CucumberTests@68bbe345]" name="runScenario" duration-ms="3744" started-at="2020-07-16T08:58:30 ART" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-07-16T08:58:34 ART">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Eliminar grupo tarifario existente aceptar"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Administrar Producto Tecnico"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at qa.stepdefinitions.GrupoTarifarioStepDefs.actuario_tiene_grupo_tarifario_eliminado_aceptar(GrupoTarifarioStepDefs.java:191)
+at ✽.actuario tiene grupo tarifario eliminado aceptar(file:///C:/Users/berdinas/IdeaProjects/delta_sprint_4/delta_grupo_tarifario_v1/src/test/java/qa/features/grupo_tarifario.feature:36)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:qa.CucumberTests@68bbe345]" name="runScenario" duration-ms="4137" started-at="2020-07-16T08:58:34 ART" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-07-16T08:58:38 ART">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Listar ascendente grupo tarifario existente"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Administrar Producto Tecnico"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at qa.stepdefinitions.GrupoTarifarioStepDefs.actuario_tiene_ordenado_ascendente_grupo_tarifario_existente(GrupoTarifarioStepDefs.java:214)
+at ✽.actuario tiene ordenado ascendente grupo tarifario existente(file:///C:/Users/berdinas/IdeaProjects/delta_sprint_4/delta_grupo_tarifario_v1/src/test/java/qa/features/grupo_tarifario.feature:41)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:qa.CucumberTests@68bbe345]" name="runScenario" duration-ms="4176" started-at="2020-07-16T08:58:38 ART" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-07-16T08:58:42 ART">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Listar descentente grupo tarifario existente"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Administrar Producto Tecnico"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:qa.CucumberTests@68bbe345]" name="tearDownClass" is-config="true" duration-ms="2550" started-at="2020-07-16T08:58:42 ART" finished-at="2020-07-16T08:58:45 ART">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- qa.CucumberTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
